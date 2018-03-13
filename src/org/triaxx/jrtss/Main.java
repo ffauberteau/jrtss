@@ -31,11 +31,12 @@ import java.util.Set;
 public class Main {
 
     public static void main(String[] args) {
-        Task t1 = new Task(2, 3, 3);
-        Task t2 = new Task(3, 4, 4);
-        Task t3 = new Task(5, 12, 12);
+        /*
+        Task t1 = new Task(...);
+        Task t2 = new Task(...);
         GlobalScheduler scheduler = new GlobalScheduler(new EarliestDeadlineFirst(), 2);
-        scheduler.schedule(Set.of(t1, t2, t3), 12);
+        scheduler.schedule(Set.of(t1, t2), feasibilityInterval);
+         */
     }
 
 }
